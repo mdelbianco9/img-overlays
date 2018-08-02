@@ -107,8 +107,30 @@
 }
 
 
+/* Landscape */
+#landscape {
+	height: 650px;
+	width: 100%;
 
+	background-size: cover;
+	background-position: center;
+}
 
+.cls-3, .cls-1 {
+	transition: all 1s ease-in-out;
+}
+
+#landscape:hover .cls-1 {
+	fill: #c557ea;
+
+}
+
+#landscape:hover .cls-3 {
+	cursor: pointer;
+	transform: translateY(300px);
+	fill: #eeefa7;
+
+}
 
 
 
