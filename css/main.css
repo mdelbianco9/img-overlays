@@ -13,9 +13,9 @@
 
 #hero-section .trap-r {
 	display: inline;
-	height: 100%;
+	height: 105%;
 	width: 60%;
-	opacity: .8;
+	opacity: .9;
 	background-image:url("../img/trap.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -47,7 +47,7 @@
  	padding-left: 10%;
  	padding-right: 3%;
  	position: relative;
- 	top: 15%;
+ 	top: 10%;
  	color: white;
  	word-wrap: break-word;
  }
@@ -55,25 +55,34 @@
  #hero-section .trap-r .icon-holder {
  	position: absolute;
  	top: 70%;
- 	left: 25%;
+ 	left: 28%;
  }
+
+ .icon-holder div {
+ 	/*border: 1px solid black;*/
+ 	background-color: #1bf128;
+ 	border-radius: 50%;
+ 	display: inline-block;
+ 	padding-top: 7%;
+ 	height: 130px;
+ 	width: 130px;
+ 	margin: 0px 10px;
+ }
+
 
  #hero-section .trap-r .fas {
  	font-size: 70px;
- 	/*position: relative;*/
- 	/*top: 300px;
- 	left: 200px;*/
  	margin: 0px 25px; 
  	color: white;
- 	background-color: #1bf128;
+ 	/*background-color: #1bf128;*/
  	opacity: 1;
- 	border-radius: 50%;
- 	padding: 20px;
+ 	/*border-radius: 50%;*/
+ 	/*padding: 20px;*/
  }
 
  .trap-r h2 {
  	position: absolute;
- 	top: 40%;
+ 	top: 35%;
  	left: 25%;
  	color: white;
  	font-size: 45px;
@@ -84,9 +93,9 @@
 
 .trap-r button {
 	position: absolute;
- 	top: 53%;
+ 	top: 51%;
  	left: 49%;
- 	color: red;
+ 	color: #f1281b;
  	font-size: 30px;
  	font-family: 'Raleway', sans-serif;
  	border-radius: 30px;
@@ -95,7 +104,7 @@
 }
 
 .trap-r button:hover {
-	background-color: red;
+	background-color: #f1281b;
 	color: white;
 	border: 2px solid white;
 	cursor: pointer;
@@ -116,25 +125,49 @@
 	background-position: center;
 }
 
-.cls-3, .cls-1 {
+.cls-3, .cls-1, .cls-4 {
 	transition: all 1s ease-in-out;
+	transition-delay: 1s;
 }
 
 #landscape:hover .cls-1 {
 	fill: #c557ea;
-
 }
 
 #landscape:hover .cls-3 {
 	cursor: pointer;
 	transform: translateY(300px);
 	fill: #eeefa7;
-
 }
 
 
+#landscape:hover .cls-4 {
+	fill: #825c10;
 
+}
 
+.land-text {
+	display: inline;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	color: white;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif; 
+	text-transform: uppercase;
+}
 
+.fa-parachute-box {
+	font-size: 100px;
+	position: relative;
+	top: 65%;
+	left: 25%;
+	color: rgb(250, 137, 80);
+	transition: all 2s ease-out;
+}
 
+#landscape:hover .fa-parachute-box {
+	transform: translate(300px, -200px);
+
+}
 

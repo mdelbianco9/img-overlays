@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus eleifend massa, sit amet vulputate nulla sagittis id. In dapibus ultrices vehicula. Aliquam in metus tempus, egestas magna id, eleifend nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus eleifend massa, sit amet vulputate nulla sagittis id. ';
-var speed = 20;
+var speed = 15;
 
 function typeWriter() {
   if (i < txt.length) {
