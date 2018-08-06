@@ -171,3 +171,51 @@
 
 }
 
+
+/*Abstract*/
+
+#abstract {
+	margin-top: 200px;
+	height: 650px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#abstract .first {
+	position: absolute;
+	top: 200px;
+	right: 110px;
+}
+
+#abstract .second {
+	position: absolute;
+	top: 350px;
+	right: 50px;
+}
+
+#abstract .third {
+	position: absolute;
+	top: 500px;
+	right: 40px;
+}
+
+.abstract-text {
+	font-size: 120px;
+	font-family: 'Ruslan Display', serif;
+	color: #f11be4;
+	/*text-decoration: overline underline;*/
+	text-decoration-color: purple;
+	text-decoration-style: dashed;
+}
+
+#abstract h5 {
+	font-size: 30px;
+	color: purple;
+	position: absolute; 
+	right: 100px;
+	bottom: -110px;
+}
+
+
