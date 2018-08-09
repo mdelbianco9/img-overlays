@@ -204,7 +204,7 @@
 .abstract-text {
 	font-size: 120px;
 	font-family: 'Ruslan Display', serif;
-	color: #f11be4;
+	color: #6c11ff;
 	/*text-decoration: overline underline;*/
 	text-decoration-color: purple;
 	text-decoration-style: dashed;
@@ -227,5 +227,44 @@
 	position: relative;
 	background-image: url("../img/modern.svg");
 }
+
+#modern .col-6 {
+	text-align: center;
+	padding-top: 4%;
+}
+
+#modern .col-6:nth-child(1) h1 {
+	color: #6c11ff;
+	font-size: 80px;
+	font-family: serif;
+}
+
+#modern .col-6:nth-child(1) h3 {
+	color: #6c11ff;
+	font-family: serif;
+	font-size: 40px;
+}
+
+#modern .col-6:nth-child(1) img {
+	margin-top: 5%;
+	border-radius: 50px;
+	box-shadow: 0 12px 16px -6px black;
+}
+
+#modern .col-6:nth-child(2) ul {
+	list-style: none;
+	margin-top: 5%;
+	background-color: rgba(169,115,255,.7);
+	padding: 60px 20px;
+	width: 80%;
+}
+
+#modern .col-6:nth-child(2) ul li {
+	font-size: 70px;
+	color: #11ffe3;
+	font-weight: 600;
+}
+
+
 
 
